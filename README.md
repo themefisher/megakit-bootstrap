@@ -38,7 +38,7 @@ npm install --global gulp-cli
 Or visit original [docs](https://gulpjs.com/docs/en/getting-started/quick-start)
 
 #### Run Theme
-After succesfully install those dependencies, open this theme with any IDM [[VS Code](https://code.visualstudio.com/) recommended], and then open internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+After succesfully install those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
 * Install node package modules
 ```
@@ -64,8 +64,22 @@ If you have questions or need help integrating the product please [contact us](m
 
 <!-- licence -->
 ## License
-Copyright &copy; 2020 Designed & Developed by [Themefisher](https://themefisher.com)
+Copyright &copy; 2021 Designed & Developed by [Themefisher](https://themefisher.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/Megakit-Bootstrap-Agency-Template/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
+
+<!-- resources -->
+## Resources
+Some third-party plugins that we used to build this template. Please check their licence.
+* **Bootstrap v4.5**: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+* **Jquery v3.5.1**: https://jquery.com/download/
+* **Google Fonts**: http://fonts.google.com/
+* **Themify Icons**: https://themify.me/themify-icons
+* **Animate CSS**: https://animate.style/
+* **Magnific Popup**: https://dimsemenov.com/plugins/magnific-popup/
+* **Font Awesome Free**: https://fontawesome.com/
+* **Counter-Up**: https://github.com/bfintal/Counter-Up
+* **Waypoints**: http://imakewebthings.com/waypoints/
+* **Slick**: https://kenwheeler.github.io/slick/
