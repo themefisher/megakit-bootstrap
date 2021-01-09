@@ -12,6 +12,18 @@ Megakit is a well-crafted, versatile and unique HTML5 agency template. Its wonde
 
 👉🏻[View Live Preview](https://demo.themefisher.com/megakit/)
 
+<!-- pages -->
+## Pages
+* **Homepage**
+* **About**
+* **Services**
+* **Pricing**
+* **Project**
+* **Blog Grid**
+* **Blog Sidebar**
+* **Blog Details**
+* **Contact**
+
 
 <!-- download -->
 ## Download And installation
