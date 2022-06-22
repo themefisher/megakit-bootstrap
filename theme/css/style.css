@@ -5,19 +5,6 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-/*
-THEME: Megakit | HTML5 Agency Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/megakit-multipurpose-bootstrap-template/
-DEMO: https://demo.themefisher.com/megakit/
-GITHUB: https://github.com/themefisher/Megakit-Bootstrap-Agency-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap");
 html {
@@ -70,7 +57,7 @@ p {
 }
 
 .navbar-toggle .icon-bar {
-  background: #f75757;
+  background: rgb(247, 87, 87);
 }
 
 input[type=email], input[type=password], input[type=text], input[type=tel] {
@@ -81,7 +68,7 @@ input[type=email], input[type=password], input[type=text], input[type=tel] {
 }
 input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus {
   box-shadow: none;
-  border: 1px solid #f75757;
+  border: 1px solid rgb(247, 87, 87);
 }
 
 .form-control {
@@ -90,7 +77,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #f75757;
+  border: 1px solid rgb(247, 87, 87);
 }
 
 .py-7 {
@@ -118,7 +105,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-main, .btn-small, .btn-transparent {
-  background: #f75757;
+  background: rgb(247, 87, 87);
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -128,23 +115,23 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-solid-border {
-  border: 2px solid #f75757;
+  border: 2px solid rgb(247, 87, 87);
   background: transparent;
   color: #242424;
 }
 .btn-solid-border:hover {
-  border: 2px solid #f75757;
-  background: #f75757;
+  border: 2px solid rgb(247, 87, 87);
+  background: rgb(247, 87, 87);
 }
 
 .btn-transparent {
   background: transparent;
   padding: 0;
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 .btn-transparent:hover {
   background: transparent;
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .btn-large {
@@ -178,7 +165,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .bg-primary {
-  background: #f75757;
+  background: rgb(247, 87, 87);
 }
 
 .bg-primary-dark {
@@ -219,7 +206,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .subtitle {
-  color: #f75757;
+  color: rgb(247, 87, 87);
   font-size: 14px;
   letter-spacing: 1px;
 }
@@ -256,7 +243,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .text-color {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .text-black {
@@ -294,7 +281,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #f75757;
+  color: rgb(247, 87, 87);
   text-decoration: none;
 }
 
@@ -384,7 +371,7 @@ a:focus {
 }
 
 #navbar {
-  background: #222328;
+  background: rgb(34, 35, 40);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 #navbar li {
@@ -406,7 +393,7 @@ a:focus {
 }
 #navbar .nav-link:hover, #navbar .nav-link:focus,
 #navbar .active .nav-link {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 #navbar .btn {
   padding: 0.7rem 1.5rem 0.5rem;
@@ -419,7 +406,7 @@ a:focus {
 }
 
 .header-top {
-  background: #222328;
+  background: rgb(34, 35, 40);
   color: #919194;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -437,7 +424,7 @@ a:focus {
   padding: 0 8px;
 }
 .header-top .header-top-socials a:hover {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 .header-top .header-top-info {
   color: #919194;
@@ -466,7 +453,7 @@ a:focus {
   letter-spacing: 1px;
 }
 .navbar-brand span {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .dropdown-menu {
@@ -533,7 +520,7 @@ a:focus {
 .dropdown-submenu:hover > .dropdown-item,
 .dropdown-item.active,
 .dropdown-item:hover {
-  background: #f75757;
+  background: rgb(247, 87, 87);
   color: #fff;
 }
 
@@ -556,12 +543,10 @@ ul.dropdown-menu li {
   .dropdown-menu li:last-child {
     margin-bottom: 10px;
   }
-
   .dropleft .dropdown-menu,
 .dropright .dropdown-menu {
     margin-top: -10px;
   }
-
   .dropdown:hover > .dropdown-menu {
     visibility: visible;
     transition: all 0.45s ease 0s;
@@ -613,7 +598,7 @@ ul.dropdown-menu li {
 }
 
 .color-one {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .color-two {
@@ -803,7 +788,7 @@ ul.dropdown-menu li {
   border-color: #dedede;
 }
 .pricing .btn-solid-border:Hover {
-  border-color: #f75757;
+  border-color: rgb(247, 87, 87);
 }
 
 .portflio-item .portfolio-item-content {
@@ -845,7 +830,7 @@ ul.dropdown-menu li {
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  color: #f75757;
+  color: rgb(247, 87, 87);
   opacity: 0;
   transition: all 0.35s ease;
 }
@@ -910,7 +895,7 @@ ul.dropdown-menu li {
   transition: all 0.4s ease 0s;
 }
 .blog-item-content h3 a:hover {
-  color: #f75757 !important;
+  color: rgb(247, 87, 87) !important;
 }
 
 .lh-36 {
@@ -963,7 +948,7 @@ h3.quote::before {
   content: "";
   width: 55px;
   height: 2px;
-  background: #f75757;
+  background: rgb(247, 87, 87);
   position: absolute;
   top: 25px;
   left: 0;
@@ -1036,7 +1021,7 @@ h3.quote::before {
   font-weight: 500;
 }
 .post-comments .comment-author a {
-  color: #f75757;
+  color: rgb(247, 87, 87);
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1047,7 +1032,7 @@ h3.quote::before {
   font-size: 12px;
 }
 .post-comments .comment-button {
-  color: #f75757;
+  color: rgb(247, 87, 87);
   display: inline-block;
   margin-left: 5px;
   font-size: 12px;
@@ -1057,7 +1042,7 @@ h3.quote::before {
   display: inline-block;
 }
 .post-comments .comment-button:hover {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .post-excerpt {
@@ -1075,7 +1060,7 @@ h3.quote::before {
 .post-excerpt blockquote.quote-post p {
   line-height: 30px;
   font-size: 20px;
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .single-blog {
@@ -1102,7 +1087,7 @@ h3.quote::before {
   color: #000;
 }
 .next-prev a:hover {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 .next-prev .prev-post i {
   margin-right: 10px;
@@ -1121,7 +1106,7 @@ h3.quote::before {
   font-size: 16px;
 }
 .social-profile ul li a i:hover {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .comments-section {
@@ -1165,7 +1150,7 @@ h3.quote::before {
   margin-bottom: 8px;
 }
 .comment-wrap .media .media-heading a {
-  color: #f75757;
+  color: rgb(247, 87, 87);
   font-size: 13px;
 }
 .comment-wrap .media .comment-meta {
@@ -1186,7 +1171,7 @@ h3.quote::before {
 }
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #f75757;
+  border: 1px solid rgb(247, 87, 87);
 }
 .comment-reply-form textarea, .comment-reply-form .btn-main, .comment-reply-form .btn-transparent, .comment-reply-form .btn-small {
   height: auto;
@@ -1227,7 +1212,7 @@ h3.quote::before {
   padding-right: 10px;
 }
 .widget.widget-category ul li a:hover {
-  color: #f75757;
+  color: rgb(247, 87, 87);
   padding-left: 5px;
 }
 .widget.widget-tag ul li {
@@ -1246,8 +1231,8 @@ h3.quote::before {
 }
 .widget.widget-tag ul li a:hover {
   color: #fff;
-  background: #f75757;
-  border: 1px solid #f75757;
+  background: rgb(247, 87, 87);
+  border: 1px solid rgb(247, 87, 87);
 }
 
 .footer {
@@ -1267,7 +1252,7 @@ h3.quote::before {
   letter-spacing: 1px;
 }
 .logo span {
-  color: #f75757;
+  color: rgb(247, 87, 87);
 }
 
 .sub-form {
@@ -1293,7 +1278,7 @@ h3.quote::before {
   z-index: 999;
   height: 40px;
   width: 40px;
-  background: #f75757;
+  background: rgb(247, 87, 87);
   border-radius: 50%;
   text-align: center;
   line-height: 43px;
@@ -1318,21 +1303,17 @@ h3.quote::before {
     font-size: 56px;
     line-height: 70px;
   }
-
   .bg-about {
     display: none;
   }
-
   section.about {
     border: 1px solid #dee2e6;
     border-left: 0;
     border-right: 0;
   }
-
   .footer-socials {
     margin-top: 20px;
   }
-
   .footer-socials li a {
     margin-left: 0px;
   }
@@ -1341,20 +1322,16 @@ h3.quote::before {
   .navbar-toggler {
     color: #fff;
   }
-
   .bg-about {
     display: none;
   }
-
   .slider .block h1 {
     font-size: 48px;
     line-height: 62px;
   }
-
   .blog-item-meta span {
     margin: 6px 0px;
   }
-
   .widget {
     margin-bottom: 30px;
     padding-bottom: 0px;
@@ -1365,36 +1342,29 @@ h3.quote::before {
     margin-left: 10px;
     margin-right: 10px;
   }
-
   .navbar-toggler {
     color: #fff;
   }
-
   .slider .block h1 {
     font-size: 38px;
     line-height: 50px;
   }
-
   .content-title {
     font-size: 28px;
     line-height: 46px;
   }
-
   .p-5 {
     padding: 2rem !important;
   }
-
   h2, .h2 {
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 36px;
   }
-
   .testimonial-item .testimonial-item-content {
     padding-left: 0px;
     padding-top: 30px;
   }
-
   .widget {
     margin-bottom: 30px;
     padding-bottom: 0px;
@@ -1404,39 +1374,31 @@ h3.quote::before {
   .header-top .header-top-info a {
     display: block;
   }
-
   .navbar-toggler {
     color: #fff;
   }
-
   .content-title {
     font-size: 28px;
     line-height: 46px;
   }
-
   .bg-about {
     display: none;
   }
-
   .p-5 {
     padding: 2rem !important;
   }
-
   h2, .h2 {
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 36px;
   }
-
   .testimonial-item .testimonial-item-content {
     padding-left: 0px;
     padding-top: 30px;
   }
-
   .text-lg {
     font-size: 3rem;
   }
-
   .widget {
     margin-bottom: 30px;
     padding-bottom: 0px;
